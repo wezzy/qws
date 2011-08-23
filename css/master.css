@@ -1,0 +1,122 @@
+/*
+	qws - QuickWebShell
+	
+	Main Stylesheet
+
+	Color scheme:
+	blue: #1877a6;
+	green: #6cd901;
+*/
+
+html, body{
+	margin:0px;
+	padding:0px;
+	font-family: verdana, sans-serif;
+	font-size:12px;
+	background-color:white;
+	color:black;
+}
+
+#title{
+	width:600px;
+	font-size:72px;
+	font-weight:bold;
+	color:#1877a6;
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+#subtitle{
+	width:600px;
+	text-align:right;
+	font-size:20px;
+	font-weight:bold;
+	color:#6cd901;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+#subtitle div{
+	float:right;
+	margin-top:50px;
+}
+
+#shell{
+	width:600px;
+	font-size:24px;
+	height:38px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+#help{
+	margin-top:5px;
+	font-size:11px;
+	color:#999;
+	width:600px;
+	text-align:right;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+#output{
+	width:600px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:auto;
+}
+
+#output .lineNumber{
+	background-color:#e3e3e3;
+	color:#898989;
+	padding:4px;
+	font-size:11px;
+}
+
+#output .lineContent{
+	padding-left:4px;
+	font-size:12px;
+}
+
+#notice{
+	position:absolute;
+	bottom:5px;
+	right:5px;
+	font-size:11px;
+}
+
+#autocomplete{
+	position:absolute;
+	z-index: 100;
+	display:none;
+	font-size:24px;
+	border: 1px solid #999;
+}
+	
+	#autocomplete ul{
+		margin: 0px;
+		padding: 0px;
+	}
+	
+		#autocomplete li{
+			padding-left: 5px;
+			padding-right: 5px;
+			cursor: pointer;
+			list-style-type: none;
+			color: #1877a6;
+			background-color: #FFFFFF;
+		}
+	
+		#autocomplete li:hover{
+			list-style-type: none;
+			background-color: #1877a6;
+			color: #FFFFFF;
+		}
+	

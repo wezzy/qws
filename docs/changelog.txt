@@ -1,0 +1,12 @@
+Changelog
+---------------------------------------
+
+v 0.2
+- tw trends search trends on twitter
+- now parser pass an array of arguments
+- flickr command
+- google search 
+- minor fixes
+
+v 0.1
+startup

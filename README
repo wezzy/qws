@@ -1,0 +1,14 @@
+qws - QuickWebShell
+
+This project aims to become the default home page for all that users that loves QuickSilver (http://www.blacktree.com/) and are comfortable with a shell
+
+Desiderata:
+ - Super light startup (A class under YSlow)
+ - Plugin structure to easily extend functionalities (even from remote files)
+ - Some common shell functionalities (pipes, echo set)
+ - Ability to store and lunch files
+ - Cool interface (we hope :-)
+ - Raking alghorithm like QuickSilver
+
+Links:
+http://orderedlist.com/articles/live-search-with-quicksilver-style
